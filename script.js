@@ -1,6 +1,6 @@
-let v1 = prompt("Enter the obtained Value")
-let tv = prompt("Enter the total Value")
-let percentage = v1 / tv * 100;
+let obtained Value = prompt("Enter the obtained Value")
+let total Value= prompt("Enter the total Value")
+let percentage = obtained Value / total Value * 100;
 
 alert("Percentage:\n" + percentage);
 
