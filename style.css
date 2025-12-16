@@ -1,4 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #0f0c29;
 }
 
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: #f7c948;
+    width: auto;
+    position: relative;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.title::before {
+    content: "Welcome to Percentage Calculator App";
+    position: absolute;
+    height: 5.2rem;
+    overflow: hidden;
+    z-index: 10;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.title::after {
+    content: "Welcome to Percentage Calculator App";
+    position: absolute;
+    height: 8rem;
+    overflow: hidden;
+    z-index: 10;
+    left: 0;
+    width: 100%;
+    /* color: #fff; */
+    z-index: 50;
+    animation: reveal 3.9s linear infinite 0.5s backwards;
+}
+
+@keyframes reveal {
+    0% {
+        width: 0;
+        color: rgba(128, 255, 0, 0.505)
+    }
+
+    25% {
+        color: rgba(128, 255, 0, 0.505); width: 105%;
+    }
+
+    50% {
+        color: rgba(128, 255, 0, 0.505);
+        width: 0%;
+    }
+
+    52% {
+        color: rgba(255, 0, 0, 0.6);
+        width: 2%;
+    }
+
+    80% {
+        color: rgba(255, 0, 0, 0.6);
+        width: 105%;
+    }
+
+    100% {
+        color: rgba(255, 0, 0, 0.6);
+        width: 0%;
+    }
+
+}
+
+@media screen and (max-width: 1640px) {
+    html {
+        font-size: 50%;
+    }
+}
