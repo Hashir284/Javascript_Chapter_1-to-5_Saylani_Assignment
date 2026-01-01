@@ -29,6 +29,7 @@ body {
 }
 
 .title::before {
+       text-transform: uppercase;
     content: "Chapter no 1";
     position: absolute;
     height: 5.2rem;
@@ -40,6 +41,7 @@ body {
 }
 
 .title::after {
+       text-transform: uppercase;
     content: "Chapter no 1";
     position: absolute;
     height: 8rem;
