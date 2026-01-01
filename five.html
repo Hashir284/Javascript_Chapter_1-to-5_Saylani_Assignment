@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <style>
+            * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #0F0C29;
+    }
+    </style>
+</head>
+<body>
+    <script>
+var num1 = 3;
+var num2 = 5;
+alert("Sum is " + (num1 + num2));
+alert("Subtraction is " + (num1 - num2));
+alert("Multiplication is " + (num1 * num2));
+alert("Division is " + (num1 / num2));
+alert("Modulus is " + (num1 % num2));
+
+var value;
+alert("Value after declaration is " + value);
+
+value = 5;
+alert("Initial value is " + value);
+
+value++;
+alert("Value after increment is " + value);
+
+value = value + 7;
+alert("Value after addition is " + value);
+
+value--;
+alert("Value after decrement is " + value);
+
+value = value % 3;
+alert("Remainder is " + value);
+
+var ticketPrice = 600;
+var tickets = 5;
+alert("Total ticket cost is " + (ticketPrice * tickets) + " PKR");
+
+var tableNum = prompt("Enter a number for table");
+alert(
+  tableNum + " x 1 = " + tableNum * 1 + "\n" +
+  tableNum + " x 2 = " + tableNum * 2 + "\n" +
+  tableNum + " x 3 = " + tableNum * 3 + "\n" +
+  tableNum + " x 4 = " + tableNum * 4 + "\n" +
+  tableNum + " x 5 = " + tableNum * 5 + "\n" +
+  tableNum + " x 6 = " + tableNum * 6 + "\n" +
+  tableNum + " x 7 = " + tableNum * 7 + "\n" +
+  tableNum + " x 8 = " + tableNum * 8 + "\n" +
+  tableNum + " x 9 = " + tableNum * 9 + "\n" +
+  tableNum + " x 10 = " + tableNum * 10
+);
+
+var celsius = prompt("Enter temperature in Celsius");
+alert(celsius + " Celsius is " + ((celsius * 9 / 5) + 32) + " Fahrenheit");
+
+var price1 = 650;
+var price2 = 100;
+var qty1 = 3;
+var qty2 = 7;
+var shipping = 100;
+alert("Total order cost is " + ((price1 * qty1) + (price2 * qty2) + shipping));
+
+var totalMarks = 980;
+var obtainedMarks = 804;
+alert("Percentage is " + ((obtainedMarks / totalMarks) * 100) + "%");
+
+alert("Total currency in PKR is " + ((104.8 * 10) + (28 * 25)));
+
+alert("(5 + 5) * 10 / 2 = " + ((5 + 5) * 10 / 2));
+
+var currentYear = 2025;
+var birthYear = 2009;
+alert("Age is " + (currentYear - birthYear));
+
+    </script>
+</body>
+</html>
