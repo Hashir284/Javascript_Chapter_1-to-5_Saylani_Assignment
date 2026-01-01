@@ -29,7 +29,7 @@ body {
 }
 
 .title::before {
-    content: "Welcome to Percentage Calculator App";
+    content: "Chapter no 1";
     position: absolute;
     height: 5.2rem;
     overflow: hidden;
@@ -40,7 +40,7 @@ body {
 }
 
 .title::after {
-    content: "Welcome to Percentage Calculator App";
+    content: "Chapter no 1";
     position: absolute;
     height: 8rem;
     overflow: hidden;
