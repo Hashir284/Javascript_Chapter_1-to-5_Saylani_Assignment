@@ -1,5 +1,5 @@
 var age = 18;
-alert(age);
+alert("Age " + age);
 
 var visit = prompt("Please write here! How many times you come on this website visited");
 alert("You have visited this site " + visit + " times.");
