@@ -1,6 +1,9 @@
-let obtainedValue = prompt("Enter the obtained Value");
-let totalValue= prompt("Enter the total Value");
-let percentage = obtainedValue / totalValue * 100;
+alert("Wellcome");
 
-alert("Percentage:\n" + percentage);
+alert("JavaScript Alert \nError! Please Enter a valid password.");
 
+alert('Welcome to JS Land... \nHappy Coding!');
+
+alert("Welcome to JS Land...");
+
+alert('Happy Coding! \nPrevent this page from creating additional');
