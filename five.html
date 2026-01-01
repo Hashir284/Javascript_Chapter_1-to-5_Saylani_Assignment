@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter 4</title>
+    <title>Chapter 5</title>
     <style>
             * {
         padding: 0;
@@ -18,35 +18,35 @@
 </head>
 <body>
     <script>
-var num1 = 3;
-var num2 = 5;
-alert("Sum is " + (num1 + num2));
-alert("Subtraction is " + (num1 - num2));
-alert("Multiplication is " + (num1 * num2));
-alert("Division is " + (num1 / num2));
-alert("Modulus is " + (num1 % num2));
+var num1 = prompt('Enter the Number 1');
+var num2 = prompt('Enter the Number 2');
+alert("Sum is " + '(num1 + num2) ' + (num1 + num2));
+alert("Subtraction is " + '(num1 - num2) ' + (num1 - num2));
+alert("Multiplication is " + '(num1 * num2) ' + (num1 * num2));
+alert("Division is " + '(num1 / num2) ' + (num1 / num2));
+alert("Modulus is " + '(num1 % num2) ' + (num1 % num2));
 
-var value;
-alert("Value after declaration is " + value);
+var value = prompt('Enter any number');
+// alert("Value after declaration is " + value);
 
-value = 5;
-alert("Initial value is " + value);
+// // value = 5;
+// alert("Initial value is " + value);
 
 value++;
 alert("Value after increment is " + value);
 
 value = value + 7;
-alert("Value after addition is " + value);
+alert("Value after addition by 7 is " + value);
 
 value--;
 alert("Value after decrement is " + value);
 
 value = value % 3;
-alert("Remainder is " + value);
+alert("Value after Remainder 3 by is " + value);
 
-var ticketPrice = 600;
-var tickets = 5;
-alert("Total ticket cost is " + (ticketPrice * tickets) + " PKR");
+// var ticketPrice = 600;
+// var tickets = 5;
+// alert("Total ticket cost is " + (ticketPrice * tickets) + " PKR");
 
 var tableNum = prompt("Enter a number for table");
 alert(
@@ -65,23 +65,23 @@ alert(
 var celsius = prompt("Enter temperature in Celsius");
 alert(celsius + " Celsius is " + ((celsius * 9 / 5) + 32) + " Fahrenheit");
 
-var price1 = 650;
-var price2 = 100;
-var qty1 = 3;
-var qty2 = 7;
-var shipping = 100;
-alert("Total order cost is " + ((price1 * qty1) + (price2 * qty2) + shipping));
+// var price1 = 650;
+// var price2 = 100;
+// var qty1 = 3;
+// var qty2 = 7;
+// var shipping = 100;
+// alert("Total order cost is " + ((price1 * qty1) + (price2 * qty2) + shipping));
 
-var totalMarks = 980;
-var obtainedMarks = 804;
+var totalMarks = prompt('Enter the total Number');
+var obtainedMarks = prompt('Enter the obtained Number');
 alert("Percentage is " + ((obtainedMarks / totalMarks) * 100) + "%");
 
-alert("Total currency in PKR is " + ((104.8 * 10) + (28 * 25)));
+// alert("Total currency in PKR is " + ((104.8 * 10) + (28 * 25)));
 
-alert("(5 + 5) * 10 / 2 = " + ((5 + 5) * 10 / 2));
+// alert("(5 + 5) * 10 / 2 = " + ((5 + 5) * 10 / 2));
 
-var currentYear = 2025;
-var birthYear = 2009;
+var currentYear = prompt('Enter the Current year');
+var birthYear = prompt('Enter the your birth year');
 alert("Age is " + (currentYear - birthYear));
 
     </script>
