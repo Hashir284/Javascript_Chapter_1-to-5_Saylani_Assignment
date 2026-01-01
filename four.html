@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <style>
+            * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
+    body {
+        background: #0F0C29;
+    }
+    </style>
+</head>
+<body>
+    <script>
+var a = "hello", b = 123, c = true;
+
+alert("1. Declare 3 variables in one statement:\nString: hello\nNumber: 123\nBoolean: true");
+
+var legal = "name, myName, name7086, name_, name$";
+var illegal = "123name, my-name, alert, @name, #test";
+
+alert("2. Legal variable names:\n" + legal);
+alert("Illegal variable names:\n" + illegal);
+
+alert(
+  "Rules for naming JS variables:\n" +
+  " Variable names can contain letters, numbers, $ and _\n" +
+  " Variable names must begin with a letter, $ or _\n" +
+  " Variable names are case sensitive\n" +
+  " Variable names should not be reserved keywords"
+);
+
+console.log("JS variables rules shown successfully");
+
+    </script>
+</body>
+</html>
